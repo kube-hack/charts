@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  sql-injection:
+  - apiVersion: v2
+    created: "2024-08-14T00:20:38.019076751-06:00"
+    description: A chart that installs a PostgreSQL database with a database client
+      has SQL injection vulnerabilities.
+    digest: 7ec9a0e664b28858fbceebd00bde5c623feb02ac35d83604742d938cbd546842
+    name: sql-injection
+    type: application
+    urls:
+    - https://github.com/kube-hack/charts/sql-injection-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-08-14T00:20:38.018502265-06:00"
