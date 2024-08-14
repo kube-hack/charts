@@ -9,6 +9,6 @@ entries:
     name: sql-injection
     type: application
     urls:
-    - https://github.com/kube-hack/charts/sql-injection-0.1.0.tgz
+    - https://kube-hack.github.io/charts/sql-injection-0.1.0.tgz
     version: 0.1.0
 generated: "2024-08-14T00:20:38.018502265-06:00"
