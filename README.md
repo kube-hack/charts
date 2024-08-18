@@ -26,7 +26,7 @@ helm repo update
 If you would like to see the available charts in the `kube-hack` repository, run the below command:
 
 ```sh
-helm search repo
+helm search repo kube-hack
 ```
 
 ### Navigating the linked repositories
@@ -38,7 +38,27 @@ Linked below are repositories containing source code and walkthroughs for each v
 ## Application Vulnerabilities
 
 - [SQL Injection](https://github.com/kube-hack/sql-injection)
+- [Command Injection](https://github.com/kube-hack/command-injection)
 
 ## Platform Vulnerabilities
 
 More coming soon!
+
+# Contributing
+
+## Requirements
+
+- Latest version of [Go](https://go.dev/dl/)
+- A computer running Linux or MacOS (this might work on Windows, but we haven't tested :grimacing:)
+
+## Steps to add a chart to the repository
+
+1. Create a public Github repository with a directory named `chart` containing the Helm chart files (see the linked repositories for examples)
+
+2. Fork the `kube-hack/charts` repository and clone it to your computer
+
+3. In your terminal, navigate to the root directory of the cloned charts repo and run the command below with the URLs of the repositories you wish to add as arguments.  Running this command will clone the repositories provided, package their respective Helm charts, and re-index the Helm repository:
+    ```sh
+    go run main.go https://github.com/example-owner/example-repo-1 https://github.com/example-owner/example-repo-2
+    ```
+4. Add, commit, and push the changes to the charts repository to your fork, then make a pull request to the `kube-hack/charts` repo. We will review the code and determine if the chart is a meaningful addition to the project.
