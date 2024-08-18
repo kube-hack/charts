@@ -1,8 +1,28 @@
 apiVersion: v1
 entries:
+  command-injection:
+  - apiVersion: v2
+    created: "2024-08-18T12:49:33.996197577-06:00"
+    description: A chart that deploys a web server that has a command injection vulnerability.
+    digest: 6c81a64b015eb5484a9f5d1ef54242e80ca96d115db8b74833dd18b4d56577b2
+    name: command-injection
+    type: application
+    urls:
+    - command-injection-0.1.0.tgz
+    version: 0.1.0
   sql-injection:
   - apiVersion: v2
-    created: "2024-08-14T01:38:10.510483262-06:00"
+    created: "2024-08-18T12:49:33.99656383-06:00"
+    description: A chart that deploys a PostgreSQL database with a database client
+      that has SQL injection vulnerabilities.
+    digest: dcd2f4eb12db55b66e578a8e69bc2c4c09c00c09c936d4c6f7f3a4e7d515bc02
+    name: sql-injection
+    type: application
+    urls:
+    - sql-injection-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    created: "2024-08-18T12:49:33.996388352-06:00"
     description: A chart that installs a PostgreSQL database with a database client
       has SQL injection vulnerabilities.
     digest: 3872346cd229bd61507631eb482eea9294a1c7291ee51834795149ac7ece6d58
@@ -11,4 +31,4 @@ entries:
     urls:
     - sql-injection-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-14T01:38:10.510276042-06:00"
+generated: "2024-08-18T12:49:33.995887775-06:00"
