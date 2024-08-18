@@ -31,7 +31,7 @@ helm search repo kube-hack
 
 ### Navigating the linked repositories
 
-Linked below are repositories containing source code and walkthroughs for each vulnerability. Each will include an introductory `README.md` file and a `solutions` directory. If you would prefer to practice hacking an application without knowing too many details, follow the installation instructions in the root `README.md` file, and don't read the files in the solutions directory.
+Linked below are repositories containing source code and walkthroughs for each vulnerability. Each will include an introductory `README.md` file and a `solution` directory. If you would prefer to practice hacking an application without knowing too many details, follow the installation instructions in the root `README.md` file, and don't read the files in the `solution` directory.
 
 # Linked Repositories
 
