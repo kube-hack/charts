@@ -55,7 +55,7 @@ More coming soon!
 
 1. Create a public Github repository with a directory named `chart` containing the Helm chart files (see the linked repositories for examples)
 
-2. Fork the `kube-hack/charts` repository and clone it to your computer
+2. Fork the `kube-hack/charts` repository and clone it to your computer. If you want to test the newly-added files on your fork, you'll need to configure your Github repository to answer GET requests for `YAML` and `tar` files. See Helm's [Chart Repository Guide](https://helm.sh/docs/topics/chart_repository/) for more details.
 
 3. In your terminal, navigate to the root directory of the cloned charts repo and run the command below with the URLs of the repositories you wish to add as arguments.  Running this command will clone the repositories provided, package their respective Helm charts, and re-index the Helm repository:
     ```sh
