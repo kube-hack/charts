@@ -49,6 +49,7 @@ More coming soon!
 ## Requirements
 
 - Latest version of [Go](https://go.dev/dl/)
+- Latest version of [Helm](https://helm.sh/docs/intro/install/)
 - A computer running Linux or MacOS (this might work on Windows, but we haven't tested :grimacing:)
 
 ## Steps to add a chart to the repository
